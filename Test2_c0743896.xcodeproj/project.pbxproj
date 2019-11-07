@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,8 +13,26 @@
 		AF6647472374757600E4149C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6647452374757600E4149C /* Main.storyboard */; };
 		AF6647492374757A00E4149C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF6647482374757A00E4149C /* Assets.xcassets */; };
 		AF66474C2374757A00E4149C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF66474A2374757A00E4149C /* LaunchScreen.storyboard */; };
+		AF8DD5262374996C0042AEDD /* Test2_c0743896.ino in Resources */ = {isa = PBXBuildFile; fileRef = AF8DD5252374996C0042AEDD /* Test2_c0743896.ino */; };
 		B743CC672669F5900DE88472 /* Pods_Test2_c0743896.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3459E8D8D8B3F483CB698777 /* Pods_Test2_c0743896.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF8DD5212374988A0042AEDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF8DD51C2374988A0042AEDD /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5D797E9A5C5782CE845840781FA1CC81;
+			remoteInfo = Alamofire;
+		};
+		AF8DD5232374988A0042AEDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF8DD51C2374988A0042AEDD /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1883BEAAB75282991B6B488431A9704A;
+			remoteInfo = "Pods-Test2_c0743896";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		09E8EA58B881EF8075F2AE6E /* Pods-Test2_c0743896.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test2_c0743896.release.xcconfig"; path = "Target Support Files/Pods-Test2_c0743896/Pods-Test2_c0743896.release.xcconfig"; sourceTree = "<group>"; };
@@ -27,6 +45,9 @@
 		AF6647482374757A00E4149C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF66474B2374757A00E4149C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF66474D2374757A00E4149C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF8DD51B2374971F0042AEDD /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		AF8DD51C2374988A0042AEDD /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		AF8DD5252374996C0042AEDD /* Test2_c0743896.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = Test2_c0743896.ino; sourceTree = "<group>"; };
 		C5D01A5A240E83AB7328453E /* Pods-Test2_c0743896.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test2_c0743896.debug.xcconfig"; path = "Target Support Files/Pods-Test2_c0743896/Pods-Test2_c0743896.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -45,6 +66,7 @@
 		334E9C4CA9E407761E351278 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AF8DD51C2374988A0042AEDD /* Pods.xcodeproj */,
 				3459E8D8D8B3F483CB698777 /* Pods_Test2_c0743896.framework */,
 			);
 			name = Frameworks;
@@ -78,8 +100,19 @@
 				AF6647482374757A00E4149C /* Assets.xcassets */,
 				AF66474A2374757A00E4149C /* LaunchScreen.storyboard */,
 				AF66474D2374757A00E4149C /* Info.plist */,
+				AF8DD51B2374971F0042AEDD /* Bridging-Header.h */,
+				AF8DD5252374996C0042AEDD /* Test2_c0743896.ino */,
 			);
 			path = Test2_c0743896;
+			sourceTree = "<group>";
+		};
+		AF8DD51D2374988A0042AEDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF8DD5222374988A0042AEDD /* Alamofire.framework */,
+				AF8DD5242374988A0042AEDD /* Pods_Test2_c0743896.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		B4456DFA3C8E7E7F525193A9 /* Pods */ = {
@@ -88,7 +121,6 @@
 				C5D01A5A240E83AB7328453E /* Pods-Test2_c0743896.debug.xcconfig */,
 				09E8EA58B881EF8075F2AE6E /* Pods-Test2_c0743896.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -140,12 +172,35 @@
 			mainGroup = AF6647332374757600E4149C;
 			productRefGroup = AF66473D2374757600E4149C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AF8DD51D2374988A0042AEDD /* Products */;
+					ProjectRef = AF8DD51C2374988A0042AEDD /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				AF66473B2374757600E4149C /* Test2_c0743896 */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		AF8DD5222374988A0042AEDD /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = AF8DD5212374988A0042AEDD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AF8DD5242374988A0042AEDD /* Pods_Test2_c0743896.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_Test2_c0743896.framework;
+			remoteRef = AF8DD5232374988A0042AEDD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		AF66473A2374757600E4149C /* Resources */ = {
@@ -155,6 +210,7 @@
 				AF66474C2374757A00E4149C /* LaunchScreen.storyboard in Resources */,
 				AF6647492374757A00E4149C /* Assets.xcassets in Resources */,
 				AF6647472374757600E4149C /* Main.storyboard in Resources */,
+				AF8DD5262374996C0042AEDD /* Test2_c0743896.ino in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,8 +418,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "college.Test2-c0743896";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Test2_c0743896/Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
 			};
 			name = Debug;
 		};
@@ -380,8 +438,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "college.Test2-c0743896";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Test2_c0743896/Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
 			};
 			name = Release;
 		};

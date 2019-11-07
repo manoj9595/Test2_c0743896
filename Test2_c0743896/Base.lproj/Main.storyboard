@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="RIj-mf-8tJ">
             <objects>
-                <viewController id="Pxj-su-iLa" customClass="ViewController" customModule="MarkingItus" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Pxj-su-iLa" customClass="ViewController" customModule="Test2_c0743896" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XXQ-ZA-R4j">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -28,6 +28,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="START MONITORING"/>
                                 <connections>
+                                    <action selector="StartMonitorButton:" destination="Pxj-su-iLa" eventType="touchUpInside" id="72b-1v-cCB"/>
                                     <action selector="onStartMonitoringPressed:" destination="Pxj-su-iLa" eventType="touchUpInside" id="K7o-CZ-hWs"/>
                                 </connections>
                             </button>
@@ -79,7 +80,9 @@
                     </view>
                     <connections>
                         <outlet property="displaytimerLabel" destination="Bpv-HQ-ak5" id="11W-tI-uPL"/>
+                        <outlet property="sliderLabel" destination="EDq-Mb-HbB" id="Mi1-tz-Oed"/>
                         <outlet property="slowDownLabel" destination="xAk-He-0Sz" id="wJC-TA-X67"/>
+                        <outlet property="timerLabel" destination="Bpv-HQ-ak5" id="X3i-If-b5f"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bVf-ey-yQJ" sceneMemberID="firstResponder"/>
